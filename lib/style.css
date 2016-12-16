@@ -1,0 +1,228 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   font-family: "Segoe UI";
+}
+table {
+   margin: 0px auto;
+   font-size: 18px;
+   border-spacing: 0px 0px;
+}
+th {
+   padding-right: 30px;
+   text-align: left;
+}
+
+tr:nth-child(n+2):hover {
+   background-color: rgb(50, 82, 110);
+   cursor: pointer;
+   color: white;
+}
+input:focus {
+   outline: 0px;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+
+.whoinc {
+   padding: 2px 7px 5px 7px;
+   font-size: 20px;
+   color: white;
+   background-color: rgb(50, 82, 110);
+   display: inline-block;
+   margin: 10px;
+   border: 2px solid rgb(50, 82, 110);
+   font-weight: 500;
+   overflow: hidden;
+}
+.whoinc:hover {
+   color: rgb(50, 82, 110);
+   background-color: white;
+}
+.whoincnow {
+   padding: 2px 7px 5px 7px;
+   font-size: 20px;
+   color: white;
+   background-color: grey;
+   display: inline-block;
+   margin: 10px;
+   border: 2px solid grey;
+   font-weight: 500;
+   overflow: hidden;
+}
+
+#formsign {
+   width: 320px;
+   color: white;
+   height: 195px;
+   margin: auto;
+   position: absolute;
+   top: 0px;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+}
+#formsign input {
+   font-size: 30px;
+   background-color: rgb(50, 82, 110);
+   color: white;
+   padding: 10px 10px 13px 10px;
+   width: 300px;
+}
+#formsign input:last-child {
+   cursor: pointer;
+   width: 320px;
+}
+#formsign input:nth-child(n+1) {
+   border-bottom: 1px solid white;
+}
+#logout {
+   position: absolute;
+   right: 10px;
+}
+#logout input {
+   background-color: rgb(50, 82, 110);
+   color: white;
+   font-size: 20px;
+   padding: 10px 20px 13px 20px;
+   cursor: pointer;
+   font-weight: 500;
+}
+#logout input:hover {
+   background-color: rgb(231, 75, 60);
+}
+#whou {
+   background-color: rgb(50, 82, 110);
+   color: white;
+   font-size: 20px;
+   padding: 10px 10px 13px 10px;
+   cursor: default;
+}
+#whoin {
+   padding-right: 100px;
+   font-weight: 500;
+}
+#mainwrap {
+   margin-top: 10px;
+   width: 100%;
+}
+#windowbg {
+   position: absolute;
+   top: 0px;
+   width: 100%;
+   display: none;
+}
+#windowbgin {
+   background-color: rgba(0, 0, 0, 0.85);
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%;
+}
+#popup {
+   position: relative;
+   width: 600px;
+   top: 50px;
+   background-color: #f2f2f2;
+   padding-bottom: 5px;
+   margin: 0px auto;
+   text-align: center;
+}
+#h {
+   font-size: 20px;
+   background-color: rgb(50, 82, 110);
+   color: white;
+   padding: 10px 0px 13px 20px;
+   margin-bottom: 10px;
+   text-align: left;
+}
+#save {
+   background-color: rgb(0, 200, 111);
+   color: white;
+   font-size: 20px;
+   padding: 10px 20px 13px 20px;
+   margin: 10px 3px 0px 0px;
+   cursor: pointer;
+}
+#del {
+   background-color: rgb(231, 75, 60);
+   color: white;
+   font-size: 20px;
+   padding: 10px 20px 13px 20px;
+   cursor: pointer;
+}
+#add {
+   background-color: rgb(22, 160, 134);
+   color: white;
+   width: 100%;
+   font-size: 20px;
+   padding: 10px 20px 13px 20px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+#change {
+   width: 253px;
+   margin: 0px auto;
+   margin-bottom: 8px;
+}
+.inpwithd {
+   font-size: 20px;
+   display: block;
+   width: 243px;
+   margin-bottom: 2px;
+   padding: 1px 0px 4px 10px;
+   background-color: white;
+   color: rgb(50, 82, 110);
+}
+#change #ireadonly {
+   background-color: rgb(50, 82, 110);
+   color: white;
+}
+#findme {
+   width: 512px;
+   height: 512px;
+   position: absolute;
+   top: 0px;
+   bottom: 0px;
+   right: 0px;
+   left: 0px;
+   margin: auto;
+}
+#addbut {
+   padding: 0px 19px 8px 18px;
+   border-radius: 33px;
+   position: absolute;
+   font-size: 44px;
+   color: white;
+   background-color: rgb(22, 160, 134);
+   bottom: 10px;
+   right: 10px;
+   box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+   cursor: pointer;
+}
+#close {
+   color: white;
+   position: absolute;
+   font-size: 30px;
+   top: 2px;
+   right: 8px;
+   transform: rotate(45deg);
+   cursor: pointer;
+}
+#pwt {
+   display: inline-block;
+   position: absolute;
+   right: 110px;
+   font-size: 20px;
+   color: white;
+   font-weight: 500;
+   padding: 10px 20px 13px 20px;
+   cursor: pointer;
+}
+#pwt:hover {
+   background-color:rgb(22, 160, 134);
+}
